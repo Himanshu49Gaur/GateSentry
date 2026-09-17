@@ -640,37 +640,4 @@ To ensure reliability in production pipelines, GateSentry enforces a 4-layer tes
 
 ---
 
-## 12. Implementation Roadmap & Milestones
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                       IMPLEMENTATION ROADMAP (Q1 MVP)                       │
-├───────────────────┬───────────────────────────────────┬─────────────────────┤
-│ Milestone         │ Scope & Deliverables              │ Target Date         │
-├───────────────────┼───────────────────────────────────┼─────────────────────┤
-│ **Sprint 1 - Core**│ - CLI Go scaffolding & config     │ Weeks 1 - 2         │
-│                   │ - Regex secret engine + Entropy   │                     │
-│                   │ - ANSI terminal output & exit code│                     │
-├───────────────────┼───────────────────────────────────┼─────────────────────┤
-│ **Sprint 2 - SCA** │ - Lockfile parsers (npm & PyPI)   │ Weeks 3 - 4         │
-│                   │ - OSV.dev batch query client      │                     │
-│                   │ - SARIF v2.1.0 generator          │                     │
-├───────────────────┼───────────────────────────────────┼─────────────────────┤
-│ **Sprint 3 - CI**  │ - GitHub Action composite release │ Weeks 5 - 6         │
-│                   │ - Git diff & staged changes filter│                     │
-│                   │ - Local .gatesentryignore support │                     │
-├───────────────────┼───────────────────────────────────┼─────────────────────┤
-│ **Sprint 4 - API** │ - Platform Backend (Go + Gin)     │ Weeks 7 - 8         │
-│                   │ - PostgreSQL DDL & migrations     │                     │
-│                   │ - SARIF Ingestion Worker & Queue  │                     │
-├───────────────────┼───────────────────────────────────┼─────────────────────┤
-│ **Sprint 5 - UI**  │ - Next.js 14 Dashboard Portal     │ Weeks 9 - 10        │
-│                   │ - Repo posture & finding triage   │                     │
-│                   │ - Policy waiver approval workflow │                     │
-├───────────────────┼───────────────────────────────────┼─────────────────────┤
-│ **Sprint 6 - GA**  │ - Security audit & penetration test│ Weeks 11 - 12      │
-│                   │ - Production EKS deployment       │                     │
-│                   │ - Documentation & Public Launch   │                     │
-└───────────────────┴───────────────────────────────────┴─────────────────────┘
-```
 
