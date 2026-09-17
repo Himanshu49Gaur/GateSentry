@@ -1,4 +1,4 @@
-# GateSentry 🛡️
+# GateSentry 
 ### CI/CD Security Scanner & Enterprise Policy Enforcement Engine
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/gatesentry/scanner)
