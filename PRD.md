@@ -255,4 +255,3 @@ ignore:
 | **Masking** | Secrets MUST be redacted in logs and stdout (`AKIA************`). Pipeline logs must never accidentally expose discovered credentials. |
 | **Network Resiliency** | In offline or air-gapped CI environments, scanner should gracefully fall back to local vulnerability databases with clear advisory warnings rather than crashing. |
 | **Performance** | Multi-threaded file walking and concurrent lockfile parsing to minimize CI run duration and cloud runner costs. |
-

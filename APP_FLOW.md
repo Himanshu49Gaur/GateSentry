@@ -732,4 +732,3 @@ src/
 
 ---
 *End of GateSentry App Flow Specification. This document serves as the single source of truth for frontend UI and user journey implementation.*
-

@@ -651,4 +651,3 @@ GateSentry enforces a strict **Zero-Code Retention Policy**:
 
 ---
 *End of GateSentry Backend Database Schema & Data Architecture Specification. This document serves as the implementation contract for database migrations, ORM entities, and backend service development.*
-

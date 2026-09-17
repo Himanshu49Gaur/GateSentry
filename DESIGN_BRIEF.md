@@ -355,4 +355,3 @@ module.exports = {
 
 ---
 *End of GateSentry UI/UX Design Brief. Use this design system specification alongside `APP_FLOW.md` to implement pixel-perfect, accessible, and stunning DevSecOps interfaces.*
-
