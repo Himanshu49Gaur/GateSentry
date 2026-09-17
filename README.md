@@ -184,7 +184,7 @@ ignore:
 
 ---
 
-## 📚 Complete Project Documentation Suite
+## Complete Project Documentation Suite
 
 - **[Product Requirements Document (PRD.md)](file:///d:/CICD%20Scanner/PRD.md):** Market context, user personas, problem statements, and MVP scope.
 - **[Technical Requirements Document (TRD.md)](file:///d:/CICD%20Scanner/TRD.md):** System architecture, Shannon entropy algorithms, and C4 system models.
