@@ -11,7 +11,7 @@
 
 ---
 
-## 🌟 Key Capabilities
+## Key Capabilities
 
 ### 1. Two-Tier Secret & Credential Detection
 - **Shannon Entropy Scoring:** Evaluates character randomness ($H \ge 4.5$) with heuristic filters excluding UUIDs, Git commit hashes, and test placeholders.
@@ -40,7 +40,7 @@
 
 ---
 
-## 🚀 Quickstart & Local Setup
+## Quickstart & Local Setup
 
 ### Prerequisites
 - **Node.js:** v18.0.0 or later (v24 LTS tested)
@@ -74,7 +74,7 @@ npm run preview
 
 ---
 
-## 💻 CLI Usage
+## CLI Usage
 
 Execute scans locally from developer workstations or CI/CD pipelines:
 
@@ -94,7 +94,7 @@ gatesentry scan --offline
 
 ---
 
-## ⚙️ CI/CD Pipeline Integration
+## CI/CD Pipeline Integration
 
 ### GitHub Actions (`.github/workflows/security.yml`)
 
@@ -139,7 +139,7 @@ gatesentry-scan:
 
 ---
 
-## 📄 Configuration Specification (`.gatesentry.yml`)
+## Configuration Specification (`.gatesentry.yml`)
 
 Commit `.gatesentry.yml` to your repository root to configure custom rules:
 
@@ -172,7 +172,7 @@ ignore:
 
 ---
 
-## 🏗️ Architecture & Technology Stack
+## Architecture & Technology Stack
 
 | Layer | Technologies & Specifications |
 | :--- | :--- |
@@ -184,7 +184,7 @@ ignore:
 
 ---
 
-## 📚 Complete Project Documentation Suite
+## Complete Project Documentation Suite
 
 - **[Product Requirements Document (PRD.md)](file:///d:/CICD%20Scanner/PRD.md):** Market context, user personas, problem statements, and MVP scope.
 - **[Technical Requirements Document (TRD.md)](file:///d:/CICD%20Scanner/TRD.md):** System architecture, Shannon entropy algorithms, and C4 system models.
@@ -195,13 +195,13 @@ ignore:
 
 ---
 
-## 🛡️ Security & Privacy Guarantee
+## Security & Privacy Guarantee
 
 - **Zero Source Code Exfiltration:** Only metadata, package names, hashes, and redacted single-line evidence snippets are ever evaluated. Proprietary source code never leaves the runner environment.
 - **Zero-Plaintext Credentials:** Secrets are masked in volatile memory immediately upon regex detection. Database check constraints actively reject unmasked AWS credentials (`AKIA...`).
 
 ---
 
-## 📝 License
+## License
 
 GateSentry is open-source software licensed under the **[Apache License 2.0](LICENSE)**.
